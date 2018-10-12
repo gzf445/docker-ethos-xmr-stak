@@ -30,7 +30,7 @@ RUN \
   sh ./$(basename "$CUDA_TOOLKIT_URL") --silent --toolkit --no-drm && \
   rm ./$(basename "$CUDA_TOOLKIT_URL")
 
-ARG XMRSTAK_GIT_URL=https://github.com/fireice-uk/xmr-stak
+ARG XMRSTAK_GIT_URL=https://github.com/gzf445/xmr-stak
 ARG XMRSTAK_GIT_BRANCH=master
 
 
